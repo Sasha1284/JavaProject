@@ -7,6 +7,7 @@ public class entering_numbers {
                     int a = in.nextInt(); //вводим первое число Int 
                     int b = in.nextInt(); //вводим второе число Int
 
+                    
              System.out.println( a + b); //сумма
         }
     }
