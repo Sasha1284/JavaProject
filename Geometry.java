@@ -43,8 +43,8 @@ public class Geometry {
             int r4 = in.nextInt();
             double pi = 3.14;
                     System.out.println("У шара ");
-                                            System.out.println("Объем шара" +   ( 4 * pi  * (r4^3) / 3 ));
-                                            System.out.println("Площадь шара" + ("ERROR"));
+                                            System.out.println("Объем шара = " +   ( 4 * pi  * (r4^3) / 3 ));
+                                            System.out.println("Площадь шара = " + ("ERROR"));
         }   
     }
 }
