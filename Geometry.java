@@ -11,7 +11,7 @@ public class Geometry {
  */
  try (Scanner in = new Scanner(System.in)) {//очень важная вещь без неё мы не сможем загонять в терминал цифры
 /*1Прямоугольник */   
-                    System.out.println("Введите 1 сторону, 2 сторону и высоту");
+                    System.out.println("Введите 2 стороны и высоту");
             int a1 = in.nextInt(); // 1 сторона
             int b1 = in.nextInt(); // 2 сторона
             int h1 = in.nextInt(); // высота
@@ -21,7 +21,7 @@ public class Geometry {
                             /*Объём */      System.out.println("Объем = " + (a1* b1 * h1));
 
 /*2Куб:*/ 
-                    System.out.println("Введите сторону для нахождения S, P, V у куба");
+                    System.out.println("Введите сторону куба");
             int a2 = in.nextInt();
                     System.out.println("У куба");
                             /*Площадь*/     System.out.println("Площадь = " + ( 6 * a2^2) );
@@ -29,7 +29,7 @@ public class Geometry {
                             /*Объём */      System.out.println("Объем = " + (a2^3) );
 
 /*3Треугольник */               
-                    System.out.println("Введите 3 стороны и высоту для нахождения S, P, V у треугольника");
+                    System.out.println("Введите 3 стороны и высоту треугольника");
             int a3 = in.nextInt();
             int b3 = in.nextInt();
             int c3 = in.nextInt();
